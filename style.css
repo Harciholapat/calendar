@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mountains+of+Christmas&family=Nosifer&display=swap');
+
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mountains of Christmas', serif;
+    background-image: url(./bg.jfif);
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(./containerbg.jpg);
+    border-radius: 5px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.box{
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./boxbg.png);
+}
+
+h1{
+    color: #c7ab85;
+}
